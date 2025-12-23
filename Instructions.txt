@@ -1,0 +1,19 @@
+How to convert 2D CAD geometry to CNC Plasma machine code (gcode): 
+(This is the fast and easy way)
+1.  Export .DXF file from Onshape.  Right click on 2D surface, select export DXF.
+2.  Open MyPlasm CNC software.  Icon is on desktop.
+3.  In MyPlasm CNC notice icons at top left of screen.  Click third from left, Import file.
+4.  Browse to This PC -> Downloads and select DXF file.  After it loads you should see image at left side of screen.
+5.  Click icon on top that's Arrow to the left of the one with a + Plus Sign.  Image should load to middle of screen.
+6.  Click icon on top that's a Check Mark.  This generates G-Code.
+7.  On main screen hit play button at top left to simulate torch moving.  Be sure it makes sense.
+8.  On keyboard hold Control Key (Ctrl) while hitting E Key.  This makes an icon show at top of screen that looks like a "G".  Hit this icon to export the Gcode Save it to This PC -> Desktop. 
+9.  On the desktop drag and drop the resulting gcode file to "fixer.bat" script file which will modify the gcode to correct it for the Portsmouth Makerspace CNC plasma cutting machine. You will see a new file appear with the same name, that will be the file for the cnc.
+
+Note:  Some settings can be changed within MyPlasm to customize cutting parameters for different materials, geometry, etc.  
+
+
+
+
+
+
